@@ -1,2 +1,2 @@
 
-# Get Beta Access From [@ForGo10God](https://t.me/ForGo10God) to access deploy.
+# Get Beta Access From [@realme417](https://t.me/realme417) to access deploy.
