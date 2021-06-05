@@ -4,13 +4,13 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $HELL_REPO == "HellBot" ]]
+    if [[ $eded_REPO == "realme" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZVZhZGVycy9JblZhZGUvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $HELL_REPO == "Hellbot" ]]
+    elif [[ $edL_REPO == "ewa  " ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZVZhZGVycy9JblZhZGUvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $HELL_REPO =~ $regex ]]
+    elif [[ $ede_REPO =~ $regex ]]
     then
         if [[ $HELL_REPO_BRANCH ]]
         then
@@ -37,14 +37,8 @@ _set_bot () {
     rm -rf "$zippath"
     sleep 5
     cd $HELLPATH
-    echo "    Starting HellBot    "
+    echo "    Starting reall    "
     echo "
-                              ╔╗─╔╗──╔╗╔╗╔╗────╔╗
-                              ║║─║║──║║║║║║───╔╝╚╗
-                              ║╚═╝╠══╣║║║║╚═╦═╩╗╔╝
-                              ║╔═╗║║═╣║║║║╔╗║╔╗║║
-                              ║║─║║║═╣╚╣╚╣╚╝║╚╝║╚╗
-                              ╚╝─╚╩══╩═╩═╩══╩══╩═╝
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
